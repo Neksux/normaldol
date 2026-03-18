@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "aimassist",
+  "version": "${version}",
+  "name": "Aim Assist Mod",
+  "description": "Advanced aim assistance mod for Minecraft with customizable settings",
+  "authors": [
+    "AimAssist Team"
+  ],
+  "contact": {
+    "homepage": "https://github.com/yourname/aimassist",
+    "sources": "https://github.com/yourname/aimassist"
+  },
+  "license": "MIT",
+  "icon": "assets/aimassist/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.aimassist.AimAssistMod"
+    ]
+  },
+  "mixins": [
+    "aimassist.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}",
+    "java": ">=21"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}
