@@ -1,0 +1,19 @@
+{
+  "key.categories.aimassist": "Aim Assist",
+  "key.aimassist.toggle": "Toggle Aim Assist",
+  "key.aimassist.config": "Open Config Menu",
+  
+  "aimassist.config.title": "Aim Assist Configuration",
+  "aimassist.config.enabled": "Enabled",
+  "aimassist.config.aimSpeed": "Aim Speed",
+  "aimassist.config.aimDistance": "Aim Distance",
+  "aimassist.config.aimFOV": "Aim FOV",
+  "aimassist.config.smoothAiming": "Smooth Aiming",
+  "aimassist.config.predictMovement": "Predict Movement",
+  "aimassist.config.targetPlayers": "Target Players",
+  "aimassist.config.targetHostile": "Target Hostile Mobs",
+  "aimassist.config.aimAtHead": "Aim at Head",
+  
+  "aimassist.message.enabled": "§a[Aim Assist] Enabled",
+  "aimassist.message.disabled": "§c[Aim Assist] Disabled"
+}
